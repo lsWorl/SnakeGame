@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+
+        //"target"用来指定ts编译为js的版本
+        "target": "ES2015",
+
+        //"module"指定要使用的模块化的规范
+        "module": "ES2015",
+        
+        //"strict"所有严格检查开关
+        "strict": true,
+
+        "outDir": "./dist",
+
+        "removeComments": true,
+        
+        "noEmitOnError": true
+
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
